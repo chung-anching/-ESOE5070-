@@ -2,6 +2,12 @@
 #### *110-1資料庫系統 (ESOE5070) b06501069 鍾安慶*
 #### 報告影片連結: https://youtu.be/saVtAMUAvgA
 
+所有的檔案都放在Database_final的資料夾下
+前端的ejs檔介面都放在view/的資料夾下
+前端的css檔介面都放在public/styles的資料夾下
+商品的圖片檔案都放在public的資料夾下
+主要的執行檔為item.js
+
 api主要分成三塊: Order、Product、Order
 利用express架構建立app這個express 的實例，再利用sqlite3 連接到資料庫 'ESOE5070_final.db'。
 - app.get('/user/create') 連到創建電商系統使用者的表單介面user.ejs
